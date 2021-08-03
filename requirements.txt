@@ -4,6 +4,4 @@ xlrd
 kaleido
 psutil
 pandas>=1.3.0
-joblib
-gunicorn
 requests
