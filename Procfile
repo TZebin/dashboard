@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run datavisualapp.py
+web: streamlit run datavisualapp.py
