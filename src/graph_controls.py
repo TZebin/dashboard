@@ -31,9 +31,9 @@ def graph_controls(chart_type, df, dropdown_options, template):
             facet_column_value = st.sidebar.selectbox("Facet column", index=length_of_options,
                                                       options=dropdown_options)
             #marginalx = st.sidebar.selectbox("Marginal X", index=2,options=['rug', 'box', None,
-                                                                         'violin', 'histogram'])
+            #                                                             'violin', 'histogram'])
             #marginaly = st.sidebar.selectbox("Marginal Y", index=2,options=['rug', 'box', None,
-                                                                         'violin', 'histogram'])
+            #                                                             'violin', 'histogram'])
             log_x = st.sidebar.selectbox('Log axis on x', options=[True, False])
             log_y = st.sidebar.selectbox('Log axis on y', options=[True, False])
             title = st.sidebar.text_input(label='Title of chart')
