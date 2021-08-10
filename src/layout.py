@@ -35,12 +35,15 @@ def views(link):
                 except Exception as e:
                     print(e)
 
-            #st.sidebar.subheader("Theme selection")
+            st.sidebar.subheader("Theme selection")
 
-            #theme_selection = st.sidebar.selectbox(label="Select your themes",
-                                                   #options=['plotly', 'plotly_white',
+            theme_selection = st.sidebar.selectbox(label="Select your themes",
+                                                   options=['plotly', 
+                                                            #'plotly_white',
                                                             #'ggplot2',
-                                                            #'seaborn', 'simple_white'])
+                                                            'seaborn',
+                                                            #'simple_white'
+                                                           ])
             st.sidebar.subheader("Chart selection")
             chart_type = st.sidebar.selectbox(label="Select your chart type.",
                                               options=['Scatter plots', 'Density contour',
